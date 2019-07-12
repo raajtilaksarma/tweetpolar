@@ -5,13 +5,13 @@ app = Flask(__name__)
 
 def showTweets(word):
     ti = Tweety()
-    ti.getTweets('Trump')
+    ti.getTweets(word)
     res = ti.polarizedTweets()
-    return res[0]
+    return res
     
 @app.route("/", methods=['POST','GET'])
 def index():
-    tweets = ''
+    tweets = []
     if request.method=='POST':
         word = request.form['word']
         tweets = showTweets(word)
