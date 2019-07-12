@@ -1,6 +1,10 @@
 # tweetpolar
 A flask web app to find the top 10 most polarised recent tweets containing a string!
 
+
+### Demo
+![](https://github.com/raajtilaksarma/tweetpolar/blob/master/tweetpolar.gif)
+
 ### Pre-requisites
 - You must have a twitter account.
 - Generate your access tokens for your twitter app.
