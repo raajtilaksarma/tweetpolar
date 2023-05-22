@@ -1,5 +1,5 @@
 pandas==0.24.2
-requests==2.22.0
+requests==2.31.0
 textblob==0.15.3
 tweepy==3.7.0
 Flask==1.0.3
